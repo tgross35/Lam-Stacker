@@ -1,0 +1,78 @@
+{
+    "library_name": "Builtin",
+    "updated": "2021-07-10T02:57:46Z",
+    "families": [
+        {
+            "name": "Isola 370HR",
+            "manufacturer": "Isola",
+            "type": "Dielectric",
+            "guid": "f4cf3e7f-7d62-45c4-8fa8-4105537d35b5",
+            "prepregs": [
+                {
+                    "guid": "c4cf5a56-9015-4c9b-8411-82af03f1ea9b",
+                    "Tg": 180,
+                    "Td": 340,
+                    "construction": "1080",
+                    "freq": [100, 500, 1000, 2000, 5000, 10000],
+                    "Dk": [3.97, 3.92, 3.9, 3.86, 3.72, 3.72],
+                    "Df": [0.017, 0.02, 0.023, 0.024, 0.028, 0.028],
+                    "thickness": 0.076,
+                    "resin": 66.0,
+                    "rel_cost": 1,
+                    "notes": "Standard offering"
+                },
+                {
+                    "guid": "4fa9c88b-0c4e-4dcf-8b8a-a9d27a33a6ef",
+                    "Tg": 180,
+                    "Td": 340,
+                    "construction": "2116",
+                    "freq": [100, 500, 1000, 2000, 5000, 10000],
+                    "Dk": [4.14, 4.10, 4.08, 4.04, 3.92, 3.92],
+                    "Df": [0.016, 0.018, 0.02, 0.0210, 0.0250, 0.0250],
+                    "thickness": 0.122,
+                    "resin": 56.0,
+                    "rel_cost": 1,
+                    "notes": "Standard offering"
+                }
+            ],
+            "cores": [
+                {
+                    "guid": "ac51f4bc-0f33-4332-82ff-54da6d289180",
+                    "Tg": 180,
+                    "Td": 340,
+                    "construction": "1-1080",
+                    "freq": [100, 500, 1000, 2000, 5000, 10000],
+                    "Dk": [4.11, 4.06, 4.04, 4.0, 3.88, 3.88],
+                    "Df": [0.016, 0.018, 0.021, 0.022, 0.026, 0.026],
+                    "thickness": 0.064,
+                    "resin": 58.0,
+                    "rel_cost": 1,
+                    "notes": "Standard offering"
+                },
+                {
+                    "guid": "a405623a-d45c-4cd9-a0a1-43e6263ce030",
+                    "Tg": 180,
+                    "Td": 340,
+                    "construction": "1-2113",
+                    "freq": [100, 500, 1000, 2000, 5000, 10000],
+                    "Dk": [4.18, 4.14, 4.11, 4.08, 3.96, 3.96],
+                    "Df": [0.016, 0.017, 0.02, 0.021, 0.024, 0.024],
+                    "thickness": 0.089,
+                    "resin": 54.0,
+                    "rel_cost": 1,
+                    "notes": "Standard offering"
+                }
+            ]
+        },
+        {
+            "name": "Generic copper foil",
+            "manufacturer": "Generic",
+            "type": "Copper",
+            "coppers": [
+                {
+                    "thickness": 0.17
+                }
+            ]
+        }
+    ]
+}

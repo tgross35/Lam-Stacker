@@ -1,0 +1,44 @@
+<html>
+<link rel="stylesheet" href="css/styles.css">
+
+<form>
+    <div class="block tooltip">
+        <label>Layer Count</label>
+        <input name="Layer Count" type="text" value="6" />
+        <span class="tooltiptext"></span>
+    </div>
+    <div class="block tooltip">
+        <label>Min Thickness</label>
+        <input name="Layer Count" type="text" value="1.4" />
+        <span class="tooltiptext"></span>
+    </div>
+    <div class="block tooltip">
+        <label>Max Thickness</label>
+        <input name="Layer Count" type="text" value="1.8" />
+        <span class="tooltiptext"></span>
+    </div>
+    <div class="block tooltip">
+        <label>Impedance</label>
+        <input name="Layer Count" type="text" value="50" />
+        <span class="tooltiptext"></span>
+    </div>    
+    <div class="block tooltip">
+        <label>Min Trace</label>
+        <input name="Layer Count" type="text" value="0.07" />
+        <span class="tooltiptext"></span>
+    </div>    
+    <div class="block tooltip">
+        <label>Max Trace</label>
+        <input name="Layer Count" type="text" value="0.4" />
+        <span class="tooltiptext"></span>
+    </div>
+    <button type="button" onclick="compute_stack()">Submit</button>
+</form>
+
+<div id="output">
+</div>
+
+<script src="js/impedance_calculators.js"></script>
+<script src="js/main.js"></script>
+</html>
+
